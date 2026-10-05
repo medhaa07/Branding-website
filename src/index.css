@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+
+:root {
+  --bg: #000000;
+  --bg-soft: #0d0d0d;
+  --panel: rgba(12, 12, 12, 0.8);
+  --panel-strong: #111111;
+  --text: #ffffff;
+  --muted: rgba(255, 255, 255, 0.72);
+  --line: rgba(255, 255, 255, 0.12);
+  --lime: #c8f135;
+  --lime-soft: rgba(200, 241, 53, 0.12);
+  --shadow: rgba(0, 0, 0, 0.4);
+  font-family: 'Inter', 'Segoe UI', sans-serif;
+  color: var(--text);
+  background: var(--bg);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background: var(--bg);
+  color: var(--text);
+  overflow-x: hidden;
+}
+
+body, button, input, textarea {
+  font-family: 'Inter', 'Segoe UI', sans-serif;
+}
+
+img, svg {
+  display: block;
+  max-width: 100%;
+}
+
+button, a {
+  transition: all 0.2s ease;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+#root {
+  min-height: 100vh;
+  background: var(--bg);
+}
